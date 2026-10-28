@@ -4,4 +4,4 @@ CREATE INDEX "country_continent" on country (
 	continent
 );
 
-ALTER TABLE country drop CONSTRAINT "country_continent";
+--DROP INDEX "country_continent";
